@@ -28,7 +28,7 @@ template<typename Tuple>void TRACET(Tuple t){TRACET_(t,make_index_sequence<tuple
 #define TRACEP(p_) TRACED("("); TRACEV(p_.first);TRACED(", ");TRACEV(p_.second);TRACED(")");
 template<typename... Args> void TRACEV(tuple<Args...> t){TRACET(t);}
 template<typename l, typename r> void TRACEV(pair<l,r> t){TRACEP(t);}
-template<template<typename...> class T, typename... K> void TRACEV(T<K...> t){auto it = t.begin();
+template<template<typename...> class T, typename... K> void TRACEV(T<K...> t){if(t.empty()){TRACEV("[]");return;}auto it = t.begin();
 TRACED("[");TRACEV(*it);for(++it;it!=t.end();++it){TRACED(", ");TRACEV(*it);}TRACED("]");}
 template<typename T> void TRACE(T t){TRACEV(t);_N;}
 template<typename T,typename... Ts> void TRACE(T t,Ts... args){TRACEV(t); _T; TRACE(args...);}
@@ -49,7 +49,7 @@ bool check_column(int c, int r, int& ti, int& tc){
 	if(board[r][c]) ++tc;
 	else{
 		if(tc > 0){
-			if(tc != tilesC[c][ti]) return false;
+			if(tilesC[c].empty() || tc != tilesC[c][ti]) return false;
 			else{
 				tc = 0;
 				++ti;
@@ -58,7 +58,7 @@ bool check_column(int c, int r, int& ti, int& tc){
 	}
 	if(r == N - 1){
 		if(tc > 0){
-			if(tc != tilesC[c][ti]) return false;
+			if(tilesC[c].empty() || tc != tilesC[c][ti]) return false;
 			else{
 				tc = 0;
 				++ti;
