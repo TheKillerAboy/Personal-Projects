@@ -46,7 +46,7 @@ class Keys:
 
 class IOHandle:
     def __init__(self):
-        pass
+        self.hooks = {}
 
     def press(self, keys):
         if type(keys) == Key:
@@ -69,3 +69,13 @@ class IOHandle:
             pyautogui.keyUp(sym)
         else:
             pyautogui.mouseUp(button=sym)
+
+    def remove_hook(self, flask):
+        if flask.typ in self.hooks:
+            if flask in self.hooks[flask.typ]:
+                self.hooks[flask.typ].remove(flask)
+
+    def add_hook(self, flask, callback):
+        if flask.typ not in self.hooks:
+            self.hooks[flask.typ] = {}
+        self.hooks[flask.typ][flask] = callback

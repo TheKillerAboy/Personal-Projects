@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="953dd56b-f042-4be1-8c60-d9cc56417c43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../PoEBot/flask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PoEBot/io_handle.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V1Iyl7merow5IDtRGh8KIET0oI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager">
+    <configuration name="sraper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="codeforces-scrap" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.sraper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="953dd56b-f042-4be1-8c60-d9cc56417c43" name="Default Changelist" comment="" />
+      <created>1576414430913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576414430913</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="911" y="152" width="999" height="807" key="CommitChangelistDialog2" timestamp="1576414954636">
+      <screen x="68" y="32" width="1852" height="1048" />
+    </state>
+    <state x="911" y="152" width="999" height="807" key="CommitChangelistDialog2/68.32.1852.1048@68.32.1852.1048" timestamp="1576414954636" />
+    <state width="1829" height="276" key="GridCell.Tab.0.bottom" timestamp="1576425023075">
+      <screen x="68" y="32" width="1852" height="1048" />
+    </state>
+    <state width="1829" height="276" key="GridCell.Tab.0.bottom/68.32.1852.1048@68.32.1852.1048" timestamp="1576425023075" />
+    <state width="1829" height="276" key="GridCell.Tab.0.center" timestamp="1576425023072">
+      <screen x="68" y="32" width="1852" height="1048" />
+    </state>
+    <state width="1829" height="276" key="GridCell.Tab.0.center/68.32.1852.1048@68.32.1852.1048" timestamp="1576425023072" />
+    <state width="1829" height="276" key="GridCell.Tab.0.left" timestamp="1576425023072">
+      <screen x="68" y="32" width="1852" height="1048" />
+    </state>
+    <state width="1829" height="276" key="GridCell.Tab.0.left/68.32.1852.1048@68.32.1852.1048" timestamp="1576425023072" />
+    <state width="1829" height="276" key="GridCell.Tab.0.right" timestamp="1576425023074">
+      <screen x="68" y="32" width="1852" height="1048" />
+    </state>
+    <state width="1829" height="276" key="GridCell.Tab.0.right/68.32.1852.1048@68.32.1852.1048" timestamp="1576425023074" />
+    <state x="898" y="191" key="SettingsEditor" timestamp="1576414751966">
+      <screen x="68" y="32" width="1852" height="1048" />
+    </state>
+    <state x="898" y="191" key="SettingsEditor/68.32.1852.1048@68.32.1852.1048" timestamp="1576414751966" />
+    <state x="650" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1577354210518">
+      <screen x="68" y="32" width="1852" height="1048" />
+    </state>
+    <state x="650" y="383" key="com.intellij.ide.util.TipDialog/68.32.1852.1048@68.32.1852.1048" timestamp="1577354210518" />
+    <state x="719" y="388" width="540" height="336" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1576419059212">
+      <screen x="68" y="32" width="1852" height="1048" />
+    </state>
+    <state x="719" y="388" width="540" height="336" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/68.32.1852.1048@68.32.1852.1048" timestamp="1576419059212" />
+  </component>
+</project>
